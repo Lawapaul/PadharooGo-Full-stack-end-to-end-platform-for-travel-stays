@@ -1,0 +1,143 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    flex: 1;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    border-top: 1px solid #dee2e6;
+}
+
+.info{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.info div{
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.info a{
+    text-decoration: none;
+    color: #212529;
+    transition: color 0.2s ease;
+}
+
+.info a:hover{
+    color: #0d6efd;
+}
+
+.info-links a{
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.name {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.security a {
+    margin: 0 1rem;
+    font-size: 0.9rem;
+}
+
+.navbar{
+    background-color: #f8f9fa !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.listing-card{
+    border: none !important;
+    margin: 2rem;
+}
+.listing-card:hover{
+    transform: translateY(-10px);
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0px !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+    width: 100px;
+}
+
+#map {
+    height: 400px;
+    width: 80vh;
+}
+
+    #filters{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 4rem;
+        align-items: center;
+    }
+    .filter{
+        text-align: center;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    .filter:hover{
+        opacity: 1;
+    }
+    .filter p{
+        font-size: 0.8rem;
+    }
+    .tax-switch{
+        border: 1px solid black;
+        border-radius: 1rem;
+        height: 2.5rem;
+        padding: 1rem;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+    }

@@ -1,0 +1,17 @@
+<% layout("/layouts/boilerplate") -%>
+<div class="row row-cols-lg-3 g-3">
+    <% for(let list of data){ %>
+      <div class="col">
+        <a href="/listing/<%= list.id %>" style="text-decoration: none; color: inherit;">
+          <div class="card h-100">
+            <img src="<%= list.image.url %>" class="card-img-top" alt="..." style="height: 20rem; object-fit: cover;">
+            <div class="card-img-overlay"></div>
+            <div class="card-body">
+              <h5 class="card-title"><%= list.title %></h5>
+              <p class="card-text"><%= list.price %> / night</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    <% } %>
+</div>
