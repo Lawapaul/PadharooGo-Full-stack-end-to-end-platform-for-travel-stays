@@ -1,5 +1,5 @@
-#PadharooGo - Full Stack End to End Platform for Travel Stays
-A full-stack, end-to-end travel stays platform inspired by Airbnb. Padharoo Go lets users discover, list, and book unique accommodations around the world, with features like user authentication, reviews, cloud image uploads, and interactive maps.
+## PadharooGo - Full Stack End to End Platform for Travel Stays
+- A full-stack, end-to-end travel stays platform inspired by Airbnb. Padharoo Go lets users discover, list, and book unique accommodations around the world, with features like user authentication, reviews, cloud image uploads, and interactive maps.
 
 ---
 
